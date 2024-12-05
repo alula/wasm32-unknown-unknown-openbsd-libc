@@ -3,10 +3,10 @@ description = "The parts of OpenBSD libc that make sense on wasm32-unknown-unkno
 edition = "2018"
 keywords = ["libc"]
 license = "BSD-3-Clause AND ISC AND MIT"
-links = "wasm32-unknown-unknown-openbsd-libc"
-name = "wasm32-unknown-unknown-openbsd-libc"
-repository = "https://github.com/trevyn/wasm32-unknown-unknown-openbsd-libc"
-version = "0.2.0"
+links = "alula-wasm32-unknown-unknown-openbsd-libc"
+name = "alula-wasm32-unknown-unknown-openbsd-libc"
+repository = "https://github.com/alula/wasm32-unknown-unknown-openbsd-libc"
+version = "0.2.1"
 
 [build-dependencies]
 cc = "1"
